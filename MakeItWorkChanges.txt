@@ -1,3 +1,3 @@
 swap to Subsystem Windows from Consonle App https://social.msdn.microsoft.com/Forums/vstudio/en-US/2dc31c7c-5e92-4afc-9d13-bc3a8bfbe2b6/msvcrtdlibexemainobj-error-lnk2019-unresolved-external-symbol-main-referenced-in-function?forum=vcgeneral
-Swap to x86 from x64
+Swap to x86 from x64 in Visual Studio
 Add SDL.dll to Sonic Tries to Make Tetris File
