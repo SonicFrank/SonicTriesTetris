@@ -82,14 +82,14 @@ int main()
 			break;
 		}
 
-		case (SDLK_DOWN):
+		/*case (SDLK_x):   // Slow down
 		{
 			if (mBoard.IsPossibleMovement(mGame.mPosX, mGame.mPosY + 1, mGame.mPiece, mGame.mRotation))
 				mGame.mPosY++;
 			break;
-		}
+		}*/
 
-		case (SDLK_x):
+		case (SDLK_DOWN):
 		{
 			// Check collision from up to down
 			while (mBoard.IsPossibleMovement(mGame.mPosX, mGame.mPosY, mGame.mPiece, mGame.mRotation)) { mGame.mPosY++; }
@@ -109,7 +109,7 @@ int main()
 			break;
 		}
 
-		case (SDLK_z):
+		case (SDLK_UP):
 		{
 			if (mBoard.IsPossibleMovement(mGame.mPosX, mGame.mPosY, mGame.mPiece, (mGame.mRotation + 1) % 4))
 				mGame.mRotation = (mGame.mRotation + 1) % 4;
